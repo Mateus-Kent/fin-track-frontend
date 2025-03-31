@@ -17,10 +17,15 @@ export default function Home() {
           </nav>
 
           <div className="flex items-center gap-x-3">
-            <Button variant="outline" size="sm">
-              Login
-            </Button>
-            <Button size="sm">Sign Up</Button>
+            <Link href="/login">
+              <Button variant="outline" size="sm">
+                Login
+              </Button>
+            </Link>
+
+            <Link href="/signUp">
+              <Button size="sm">Sign Up</Button>
+            </Link>
           </div>
         </div>
       </header>
