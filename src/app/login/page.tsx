@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Separator } from '@/components/ui/separator'
 
-export default function LoginPage() {
+export default function Login() {
   return (
     <div className="flex min-h-screen flex-col w-full  ">
       <Link href="/" className="absolute left-4 top-4 md:left-8 md:top-8">
@@ -89,7 +89,7 @@ export default function LoginPage() {
           <p className="text-center text-sm">
             Don&apos;t have an account?{' '}
             <Link
-              href="/signup"
+              href="/signUp"
               className="text-primary underline-offset-4 hover:underline"
             >
               Sign up
